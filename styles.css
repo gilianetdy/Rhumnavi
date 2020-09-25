@@ -2793,8 +2793,8 @@ fieldset:disabled a.btn {
 }
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #272b2b;
+  border-color: #272b2b;
 }
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
   box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
@@ -2805,8 +2805,8 @@ fieldset:disabled a.btn {
 }
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #272b2b;
+  border-color: #272b2b;
 }
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
@@ -10243,6 +10243,7 @@ body {
   font-size: 1,5 rem;
   line-height: 1,5 rem;
   letter-spacing: 0.9rem;
+  text-transform: uppercase;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -10250,7 +10251,7 @@ body {
 }
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1rem;;
 }
 @media (min-width: 768px) {
   .masthead h1 {
